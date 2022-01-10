@@ -1,4 +1,5 @@
-Assignment 3 - CIS 2500 - Mohammed Abdallah - mabdal03 - Last Edited: 2021/03/21
+Mohammed Abdallah
+Last Edited: 2021/03/21
 
 How to run the Program:
 Make sure ALL included files are in the same file folder, including the makefile.
@@ -18,10 +19,10 @@ When running the program, you're presented with a menu of 8 options:
 8. Exit - exit the program and free all nodes
 
 Known inefficiencies with the program:
-- In the function countStopWords it does not print the number of tweets searched based on grammar so if there was only
+- In the function *countStopWords* it does not print the number of tweets searched based on grammar so if there was only
 one tweet searched, it would return "Across 1 tweets, N stop words were found" which is not grammatically correct.
 
 Future Improvements:
-- I would like to fix the above known inefficieny with my program to make it more grammatically correct.
+- I would like to fix the above known inefficiency with my program to make it more grammatically correct.
 - Add a function to automatically save data from the linked list to a file called "autosave.csv" as tweets are added so that if the computer 
 dies or crashes, everything is saved.
